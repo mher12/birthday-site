@@ -62,18 +62,18 @@ h2, h3 {
     
 
 #gift-img-happy:hover {
-    background-image: url("happy.gif");
+    background-image: url("images/happy.gif");
     }
 
 #gift-img-hot:hover {
-    background-image: url("hot.gif");
+    background-image: url("images/hot.gif");
     }
 
 #gift-img-strong:hover {
-    background-image: url("strong.gif");
+    background-image: url("images/strong.gif");
     }
 #gift-img-cheers:hover {
-    background-image: url("cheers.gif");
+    background-image: url("images/cheers.gif");
     }
     
 #footer {
