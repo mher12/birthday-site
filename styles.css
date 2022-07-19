@@ -1,0 +1,84 @@
+body {
+    font-family: 'Edu TAS Beginner', cursive;
+    color: whitesmoke;
+    background: linear-gradient(red, orange, yellow, green, lightskyblue, blue, purple);
+    text-align: center; 
+    
+}
+h2, h3 {
+    text-shadow: 0 0 1px black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+#bday-age {
+    background: lightblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: lightblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    }
+
+#profile-image {
+    width: 100px; 
+    border-radius: 50%;
+    border: 3px dotted whitesmoke;
+    margin-bottom: 20px;
+    }
+    
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-img.jpg");
+    background-size: cover;
+    }
+    
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+    }
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+    }
+
+#gift-img-strong:hover {
+    background-image: url("images/strong.gif");
+    }
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+    }
+    
+#footer {
+    font-style: italic;
+    margin: 40px auto;
+    width: 400px;
+       
+}
